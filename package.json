@@ -1,0 +1,37 @@
+{
+  "name": "react-animate",
+  "version": "3.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Elie Rotenberg <elie@rotenberg.io>",
+  "main": "src/index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elierotenberg/react-animate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elierotenberg/react-animate/issues"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "homepage": "https://github.com/elierotenberg/react-animate",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "lodash": "^3.9.3",
+    "raf": "^3.0.0",
+    "should": "^6.0.3",
+    "tween-interpolate": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-eslint": "^3.1.15",
+    "babel-runtime": "^5.5.8",
+    "eslint": "^0.23.0",
+    "eslint-plugin-react": "^2.5.2",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.1",
+    "gulp-plumber": "^1.0.1"
+  }
+}
